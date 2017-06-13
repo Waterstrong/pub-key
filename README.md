@@ -2,7 +2,7 @@
 Easy way to add my public key into server. `-rw-r--r--  644  id_rsa.pub`
 
 1. Goto remote server
-2. Clone pub-key project `git clone https://github.com/Waterstrong/pub-key.git`
+2. Clone pub-key project `git clone https://github.com/Waterstrong/ssh-key.git`
 3. Append pub key to authorized_keys file on server
 ```
 cat id_rsa.pub >> ~/.ssh/authorized_keys
